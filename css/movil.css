@@ -1,0 +1,13 @@
+@media screen and (max-width: 1000px){
+    article{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    article{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

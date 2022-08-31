@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.ancho{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+h2{
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.padrecito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.precio{
+    font-size: 50px;
+    color: #00dac7;
+    padding: 25px;
+}
+
+article{
+    background: rgb(228, 228, 228);
+    color: #333;
+    border: 1px black solid;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px gray;
+    width: 23%;
+    /* box-sizing: border-box; */
+}
+
+article p{
+    margin-bottom: 25px;
+}
+
+.btn-precio{
+    background-color: salmon;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.btn-precio:hover{
+    background-color: #fff;
+    color: salmon;
+    border: 2px salmon solid;
+}
